@@ -13,7 +13,7 @@ test.describe("Work with us page", () => {
 
         await expect(page).toHaveURL("https://planetakino.ua/about/vacancy/");
         await expect(page).toHaveTitle("Вакансії Main");
-        await expect(workWithUs.workHeaderLeft).toHaveText("Станьчастиною!!!");
+        await expect(workWithUs.workHeaderLeft).toHaveText("Станьчастиною");
         await expect(workWithUs.workHeaderRight).toHaveText("суперкоманди!");
         await expect(workWithUs.aboutThePlanet).toBeVisible();
     });
